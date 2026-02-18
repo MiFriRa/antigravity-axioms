@@ -31,6 +31,13 @@ This workflow guides you through setting up a new project that adheres to the An
     echo "This project aligns with the global [Antigravity Axioms](file:///c:/Users/mikke/Projects/antigravity-axioms/doc/AXIOMS.md)." >> README.md
     ```
 
+    -   **Copy Axiom Checklists:**
+    ```bash
+    mkdir doc
+    # Copy the cloud checklist as a starting point for project-specific rules
+    copy "c:\Users\mikke\Projects\antigravity-axioms\doc\AXIOM_CHECKLIST_CLOUD.md" "doc\AXIOM_CHECKLIST.md"
+    ```
+
 4.  **Technology Stack Setup**
     -   If `node`: `npm init -y`
     -   If `python`: `python -m venv venv` and `pip install ruff`
@@ -39,5 +46,5 @@ This workflow guides you through setting up a new project that adheres to the An
 5.  **Commit Initial State**
     ```bash
     git add .
-    git commit -m "chore: initial commit with commander's intent"
+    git commit -m "chore: initial commit with commander's intent and axiom checklist"
     ```
