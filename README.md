@@ -53,3 +53,6 @@ We believe in **Continuous Verification** and **Transparency**. If you want to p
 ## 📄 License
 This repository is licensed under the **MIT License**.
 *Note: The axiomatic text content in `doc/` is available under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+
+---
+**Author:** Mikkel Frimer-Rasmussen | **Company:** Frimer-Rasmussen Consulting | **Web:** [frimer-rasmussen.dk](https://frimer-rasmussen.dk)
